@@ -51,18 +51,6 @@
           <p>{{ __('Icons') }}</p>
         </a>
       </li>
-      <li class = "@if ($activePage == 'maps') active @endif">
-        <a href="{{ route('page.index','maps') }}">
-          <i class="now-ui-icons location_map-big"></i>
-          <p>{{ __('Maps') }}</p>
-        </a>
-      </li>
-      <li class = " @if ($activePage == 'notifications') active @endif">
-        <a href="{{ route('page.index','notifications') }}">
-          <i class="now-ui-icons ui-1_bell-53"></i>
-          <p>{{ __('Notifications') }}</p>
-        </a>
-      </li>
       <li class = " @if ($activePage == 'table') active @endif">
         <a href="{{ route('page.index','table') }}">
           <i class="now-ui-icons design_bullet-list-67"></i>
@@ -75,12 +63,7 @@
           <p>{{ __('Typography') }}</p>
         </a>
       </li>
-      <li class = "">
-        <a href="{{ route('page.index','upgrade') }}" class="bg-info">
-          <i class="now-ui-icons arrows-1_cloud-download-93"></i>
-          <p>{{ __('Upgrade to PRO') }}</p>
-        </a>
-      </li>
+      
     </ul>
   </div>
   </div>
