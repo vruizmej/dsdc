@@ -21,6 +21,7 @@ class UsersTableSeeder extends Seeder
             'password' => Hash::make('secret'),
             'created_at' => now(),
             'updated_at' => now()
+            
         ]);
     }
 }
