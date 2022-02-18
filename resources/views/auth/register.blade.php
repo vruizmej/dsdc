@@ -52,18 +52,7 @@
           <div class="card card-signup text-center">
             <div class="card-header ">
               <h4 class="card-title">{{ __('Register') }}</h4>
-              <div class="social">
-                <button class="btn btn-icon btn-round btn-twitter">
-                  <i class="fab fa-twitter"></i>
-                </button>
-                <button class="btn btn-icon btn-round btn-dribbble">
-                  <i class="fab fa-dribbble"></i>
-                </button>
-                <button class="btn btn-icon btn-round btn-facebook">
-                  <i class="fab fa-facebook-f"></i>
-                </button>
-                <h5 class="card-description">  {{ __('or be classical') }}</h5>
-              </div>
+             
             </div>
             <div class="card-body ">
               <form method="POST" action="{{ route('register') }}">
